@@ -1,0 +1,30 @@
+{
+  "name": "blizko",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Близко — карта выгодных покупок в Москве",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@fontsource/unbounded": "^5.3.0",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "lucide-vue-next": "^1.0.0",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.23",
+    "@types/leaflet.markercluster": "^1.5.6",
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.6",
+    "vue-tsc": "^3.3.14"
+  }
+}
